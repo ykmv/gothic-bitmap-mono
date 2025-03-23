@@ -1,4 +1,7 @@
 # Gothic Bitmap Mono
+
+[demo of the font](./example_v1.0.0.png)
+
 A bitmap monospace font for Gothic language and its alphabet.
 
 As of now the only supported size is `8x14` 
