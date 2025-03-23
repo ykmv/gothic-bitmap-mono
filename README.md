@@ -9,7 +9,7 @@ As of now the only supported size is `8x14`
 The `.otb` version is the original bitmap font.
 The `.otf` version is vectorized, meaning that it can be scaled to any size.
 
-# How to build the `.otf` and `.otb` files
+## How to build the `.otf` and `.otb` files
 Requirements:
  - `aseprite`
  - `potrace`
