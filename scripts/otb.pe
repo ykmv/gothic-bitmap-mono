@@ -1,0 +1,20 @@
+#!/usr/bin/fontforge -script
+
+New()
+Reencode("UnicodeFull", 1)
+
+i = 0
+while  (i <= 26)
+	Select(0u10330 + i)
+	SetWidth(550)
+	Import("./data/letters/":r + i + ".svg")
+	i++
+endloop
+
+BitmapsAvail([14])
+SetFontNames("gothic_bitmap_mono", "Gothic Bitmap Mono Vectorized", "Gothic Bitmap Mono Vectorized Regular", "Regular", " ", "v1.0.0")
+Generate("gothic_bitmap_mono.otf", "ttf")
+
+SetFontNames("gothic_bitmap_mono", "Gothic Bitmap Mono", "Gothic Bitmap Mono Regular", "Regular", " ", "v1.0.0")
+Generate("gothic_bitmap_mono.otb", "otb")
+
