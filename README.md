@@ -13,6 +13,7 @@ The `.otf` version is vectorized, meaning that it can be scaled to any size.
 Requirements:
  - `aseprite`
  - `potrace`
+ - `imagemagick`
  - `fontforge`
 
 run `./build.sh`
